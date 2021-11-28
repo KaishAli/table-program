@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<script>
+    var num;  
+  
+    var num = parseInt(prompt("enter number"));
+  
+    console.log("Multiplication Table for %d is:", num);  
+
+    tables(num);
+
+    function tables(num)  
+{  
+    var count;  
+  
+    for( var count = 1; count <= 10; count++)  
+    {  
+        console.log(num, count, num*count);  
+    }  
+}
+</script>
+</body>
+</html>
